@@ -21,7 +21,7 @@ jobs:
         NAME: nika
       with:
         arch: arm64
-        compiler: clang/19.1.17
+        compiler: clang
         defconfig: r9q_eur_openx2_defconfig
         image: Image.gz-dtb
 
